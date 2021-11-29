@@ -1,0 +1,10 @@
+C:\Users\plast\Desktop\Ivanov\Ivanov\bin\Debug\Ivanov.exe.config
+C:\Users\plast\Desktop\Ivanov\Ivanov\bin\Debug\Ivanov.exe
+C:\Users\plast\Desktop\Ivanov\Ivanov\bin\Debug\Ivanov.pdb
+C:\Users\plast\Desktop\Ivanov\Ivanov\obj\Debug\Ivanov.Form1.resources
+C:\Users\plast\Desktop\Ivanov\Ivanov\obj\Debug\Ivanov.Properties.Resources.resources
+C:\Users\plast\Desktop\Ivanov\Ivanov\obj\Debug\Ivanov.csproj.GenerateResource.cache
+C:\Users\plast\Desktop\Ivanov\Ivanov\obj\Debug\Ivanov.csproj.CoreCompileInputs.cache
+C:\Users\plast\Desktop\Ivanov\Ivanov\obj\Debug\Ivanov.exe
+C:\Users\plast\Desktop\Ivanov\Ivanov\obj\Debug\Ivanov.pdb
+C:\Users\plast\Desktop\Ivanov\Ivanov\obj\Debug\Ivanov.csprojAssemblyReference.cache
