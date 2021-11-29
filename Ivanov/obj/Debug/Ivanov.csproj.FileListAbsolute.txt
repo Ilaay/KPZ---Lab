@@ -8,3 +8,12 @@ C:\Users\plast\Desktop\Ivanov\Ivanov\obj\Debug\Ivanov.csproj.CoreCompileInputs.c
 C:\Users\plast\Desktop\Ivanov\Ivanov\obj\Debug\Ivanov.exe
 C:\Users\plast\Desktop\Ivanov\Ivanov\obj\Debug\Ivanov.pdb
 C:\Users\plast\Desktop\Ivanov\Ivanov\obj\Debug\Ivanov.csprojAssemblyReference.cache
+D:\Github\Ivanov\Ivanov\Ivanov\bin\Debug\Ivanov.exe.config
+D:\Github\Ivanov\Ivanov\Ivanov\bin\Debug\Ivanov.exe
+D:\Github\Ivanov\Ivanov\Ivanov\bin\Debug\Ivanov.pdb
+D:\Github\Ivanov\Ivanov\Ivanov\obj\Debug\Ivanov.csprojAssemblyReference.cache
+D:\Github\Ivanov\Ivanov\Ivanov\obj\Debug\Ivanov.Form1.resources
+D:\Github\Ivanov\Ivanov\Ivanov\obj\Debug\Ivanov.Properties.Resources.resources
+D:\Github\Ivanov\Ivanov\Ivanov\obj\Debug\Ivanov.csproj.GenerateResource.cache
+D:\Github\Ivanov\Ivanov\Ivanov\obj\Debug\Ivanov.exe
+D:\Github\Ivanov\Ivanov\Ivanov\obj\Debug\Ivanov.pdb
