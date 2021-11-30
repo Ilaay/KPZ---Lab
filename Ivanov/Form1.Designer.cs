@@ -24,7 +24,6 @@ namespace Ivanov
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.ColorDialog colorDialog1;
-        private System.Windows.Forms.Button Start;
         private System.Windows.Forms.Label algorithmLabel;
         private System.Windows.Forms.RichTextBox Algorithm;
         private System.Windows.Forms.Button addVar;
@@ -33,6 +32,7 @@ namespace Ivanov
         private System.Windows.Forms.TextBox printInfo;
         private System.Windows.Forms.TextBox varInfo;
         private System.Windows.Forms.Button print;
+        private System.Windows.Forms.Button Save;
     }
 }
 

@@ -27,3 +27,4 @@ C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\obj\Debug\Ivanov.csproj.GenerateRe
 C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\obj\Debug\Ivanov.csproj.CoreCompileInputs.cache
 C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\obj\Debug\Ivanov.exe
 C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\obj\Debug\Ivanov.pdb
+C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\obj\Debug\Ivanov.StartForm.resources

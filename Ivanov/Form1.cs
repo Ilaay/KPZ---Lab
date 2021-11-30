@@ -46,7 +46,7 @@ namespace Ivanov
             this.addVar = new System.Windows.Forms.Button();
             this.Algorithm = new System.Windows.Forms.RichTextBox();
             this.algorithmLabel = new System.Windows.Forms.Label();
-            this.Start = new System.Windows.Forms.Button();
+            this.Save = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // print
@@ -122,21 +122,20 @@ namespace Ivanov
             this.algorithmLabel.Text = "Algorithm";
             this.algorithmLabel.Click += new System.EventHandler(this.algorithmLabel_Click);
             // 
-            // Start
+            // Save
             // 
-            this.Start.Location = new System.Drawing.Point(32, 280);
-            this.Start.Name = "Start";
-            this.Start.Size = new System.Drawing.Size(532, 23);
-            this.Start.TabIndex = 16;
-            this.Start.Text = "START";
-            this.Start.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.Start.UseVisualStyleBackColor = true;
-            this.Start.Click += new System.EventHandler(this.Start_Click);
+            this.Save.Location = new System.Drawing.Point(32, 274);
+            this.Save.Name = "Save";
+            this.Save.Size = new System.Drawing.Size(531, 29);
+            this.Save.TabIndex = 16;
+            this.Save.Text = "SAVE";
+            this.Save.UseVisualStyleBackColor = true;
+            this.Save.Click += new System.EventHandler(this.Save_Click);
             // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(594, 315);
-            this.Controls.Add(this.Start);
+            this.Controls.Add(this.Save);
             this.Controls.Add(this.algorithmLabel);
             this.Controls.Add(this.Algorithm);
             this.Controls.Add(this.addVar);
@@ -238,6 +237,11 @@ namespace Ivanov
         private void algorithmLabel_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Save_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
