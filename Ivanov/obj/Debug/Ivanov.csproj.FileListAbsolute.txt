@@ -17,3 +17,13 @@ D:\Github\Ivanov\Ivanov\Ivanov\obj\Debug\Ivanov.Properties.Resources.resources
 D:\Github\Ivanov\Ivanov\Ivanov\obj\Debug\Ivanov.csproj.GenerateResource.cache
 D:\Github\Ivanov\Ivanov\Ivanov\obj\Debug\Ivanov.exe
 D:\Github\Ivanov\Ivanov\Ivanov\obj\Debug\Ivanov.pdb
+C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\bin\Debug\Ivanov.exe.config
+C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\bin\Debug\Ivanov.exe
+C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\bin\Debug\Ivanov.pdb
+C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\obj\Debug\Ivanov.csprojAssemblyReference.cache
+C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\obj\Debug\Ivanov.Form1.resources
+C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\obj\Debug\Ivanov.Properties.Resources.resources
+C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\obj\Debug\Ivanov.csproj.GenerateResource.cache
+C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\obj\Debug\Ivanov.csproj.CoreCompileInputs.cache
+C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\obj\Debug\Ivanov.exe
+C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\obj\Debug\Ivanov.pdb
