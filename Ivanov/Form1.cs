@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Ivanov
@@ -231,7 +227,7 @@ namespace Ivanov
 
         private void Start_Click(object sender, EventArgs e)
         {
-            ProgramAlgorithm.DoAlgorithm(5);
+
         }
 
         private void algorithmLabel_Click(object sender, EventArgs e)
@@ -267,9 +263,8 @@ public class Algorithm
         algorithm.Add(new Tuple<WorkType, string>(workType, text));
     }
 
-    public void DoAlgorithm(int numOfAlg = 0)
+    public void DoAlgorithm(Dictionary<string, int> algDict, int numOfAlg = 0)
     {
-        Dictionary<string, int> algDict = new Dictionary<string, int>();
         foreach (var step in algorithm)
         {
             switch (step.Item1)

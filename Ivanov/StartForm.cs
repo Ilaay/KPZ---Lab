@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -15,6 +9,7 @@ namespace Ivanov
     {
         private int counter = 1;
         private List<Task> tasks { get; set; } = new List<Task>();
+        private Dictionary<string, int> algDict { get; set; } = new Dictionary<string, int>();
         public StartForm()
         {
             InitializeComponent();
@@ -30,7 +25,7 @@ namespace Ivanov
         private void Form_FormClosing(object sender, FormClosingEventArgs e)
         {
             var alg = (sender as Form1).ProgramAlgorithm;
-            tasks.Add(new Task(() => alg.DoAlgorithm(counter++)));
+            tasks.Add(new Task(() => alg.DoAlgorithm(algDict, counter++)));
         }
 
         private void start_Click(object sender, EventArgs e)
