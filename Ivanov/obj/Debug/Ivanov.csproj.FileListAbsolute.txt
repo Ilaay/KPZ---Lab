@@ -28,3 +28,4 @@ C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\obj\Debug\Ivanov.csproj.CoreCompil
 C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\obj\Debug\Ivanov.exe
 C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\obj\Debug\Ivanov.pdb
 C:\Users\plast\Documents\GitHub\Ivanov\Ivanov\obj\Debug\Ivanov.StartForm.resources
+D:\Github\Ivanov\Ivanov\Ivanov\obj\Debug\Ivanov.StartForm.resources

@@ -41,88 +41,77 @@ namespace Ivanov
             this.equality = new System.Windows.Forms.Button();
             this.addVar = new System.Windows.Forms.Button();
             this.Algorithm = new System.Windows.Forms.RichTextBox();
-            this.algorithmLabel = new System.Windows.Forms.Label();
             this.Save = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // print
             // 
-            this.print.Location = new System.Drawing.Point(226, 224);
+            this.print.Location = new System.Drawing.Point(172, 224);
             this.print.Name = "print";
             this.print.Size = new System.Drawing.Size(141, 44);
             this.print.TabIndex = 1;
-            this.print.Text = "Print value";
+            this.print.Text = "Print";
             this.print.UseVisualStyleBackColor = true;
             this.print.Click += new System.EventHandler(this.print_Click);
             // 
             // varInfo
             // 
-            this.varInfo.Location = new System.Drawing.Point(32, 198);
+            this.varInfo.Location = new System.Drawing.Point(9, 198);
             this.varInfo.Name = "varInfo";
-            this.varInfo.Size = new System.Drawing.Size(141, 20);
+            this.varInfo.Size = new System.Drawing.Size(141, 24);
             this.varInfo.TabIndex = 5;
             this.varInfo.TextChanged += new System.EventHandler(this.varInfo_TextChanged);
             // 
             // printInfo
             // 
-            this.printInfo.Location = new System.Drawing.Point(226, 198);
+            this.printInfo.Location = new System.Drawing.Point(172, 198);
             this.printInfo.Name = "printInfo";
-            this.printInfo.Size = new System.Drawing.Size(141, 20);
+            this.printInfo.Size = new System.Drawing.Size(141, 24);
             this.printInfo.TabIndex = 7;
             this.printInfo.TextChanged += new System.EventHandler(this.printName_TextChanged);
             // 
             // equalInfo
             // 
-            this.equalInfo.Location = new System.Drawing.Point(423, 198);
+            this.equalInfo.Location = new System.Drawing.Point(329, 198);
             this.equalInfo.Name = "equalInfo";
-            this.equalInfo.Size = new System.Drawing.Size(141, 20);
+            this.equalInfo.Size = new System.Drawing.Size(141, 24);
             this.equalInfo.TabIndex = 8;
             this.equalInfo.TextChanged += new System.EventHandler(this.equalInfo_TextChanged);
             // 
             // equality
             // 
-            this.equality.Location = new System.Drawing.Point(423, 224);
+            this.equality.Location = new System.Drawing.Point(329, 224);
             this.equality.Name = "equality";
             this.equality.Size = new System.Drawing.Size(141, 44);
             this.equality.TabIndex = 9;
-            this.equality.Text = "Equality";
+            this.equality.Text = "Func";
             this.equality.UseVisualStyleBackColor = true;
             this.equality.Click += new System.EventHandler(this.equality_Click);
             // 
             // addVar
             // 
-            this.addVar.Location = new System.Drawing.Point(32, 224);
+            this.addVar.Location = new System.Drawing.Point(9, 224);
             this.addVar.Name = "addVar";
             this.addVar.Size = new System.Drawing.Size(141, 44);
             this.addVar.TabIndex = 10;
-            this.addVar.Text = "Set value";
+            this.addVar.Text = "Value";
             this.addVar.UseVisualStyleBackColor = true;
             this.addVar.Click += new System.EventHandler(this.addVar_Click);
             // 
             // Algorithm
             // 
-            this.Algorithm.Location = new System.Drawing.Point(32, 51);
+            this.Algorithm.Location = new System.Drawing.Point(12, 12);
             this.Algorithm.Name = "Algorithm";
-            this.Algorithm.Size = new System.Drawing.Size(532, 104);
+            this.Algorithm.Size = new System.Drawing.Size(570, 170);
             this.Algorithm.TabIndex = 14;
             this.Algorithm.Text = "";
             this.Algorithm.TextChanged += new System.EventHandler(this.Algorithm_TextChanged);
             // 
-            // algorithmLabel
-            // 
-            this.algorithmLabel.AutoSize = true;
-            this.algorithmLabel.Location = new System.Drawing.Point(279, 18);
-            this.algorithmLabel.Name = "algorithmLabel";
-            this.algorithmLabel.Size = new System.Drawing.Size(50, 13);
-            this.algorithmLabel.TabIndex = 15;
-            this.algorithmLabel.Text = "Algorithm";
-            this.algorithmLabel.Click += new System.EventHandler(this.algorithmLabel_Click);
-            // 
             // Save
             // 
-            this.Save.Location = new System.Drawing.Point(32, 274);
+            this.Save.Location = new System.Drawing.Point(487, 198);
             this.Save.Name = "Save";
-            this.Save.Size = new System.Drawing.Size(531, 29);
+            this.Save.Size = new System.Drawing.Size(96, 70);
             this.Save.TabIndex = 16;
             this.Save.Text = "SAVE";
             this.Save.UseVisualStyleBackColor = true;
@@ -130,9 +119,9 @@ namespace Ivanov
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(594, 315);
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.ClientSize = new System.Drawing.Size(594, 286);
             this.Controls.Add(this.Save);
-            this.Controls.Add(this.algorithmLabel);
             this.Controls.Add(this.Algorithm);
             this.Controls.Add(this.addVar);
             this.Controls.Add(this.equality);
@@ -140,6 +129,7 @@ namespace Ivanov
             this.Controls.Add(this.printInfo);
             this.Controls.Add(this.varInfo);
             this.Controls.Add(this.print);
+            this.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load_1);
             this.ResumeLayout(false);
@@ -334,19 +324,14 @@ public class Algorithm
         {
             case "==":
                 return val1 == val2;
-                break;
             case "<=":
                 return val1 <= val2;
-                break;
             case ">=":
                 return val1 >= val2;
-                break;
             case "<":
                 return val1 < val2;
-                break;
             case ">":
                 return val1 > val2;
-                break;
             default:
                 return false;
         }

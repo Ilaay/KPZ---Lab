@@ -21,10 +21,6 @@ namespace Ivanov
             base.Dispose(disposing);
         }
 
-        private System.Windows.Forms.ImageList imageList1;
-        private System.Windows.Forms.WebBrowser webBrowser1;
-        private System.Windows.Forms.ColorDialog colorDialog1;
-        private System.Windows.Forms.Label algorithmLabel;
         private System.Windows.Forms.RichTextBox Algorithm;
         private System.Windows.Forms.Button addVar;
         private System.Windows.Forms.Button equality;
